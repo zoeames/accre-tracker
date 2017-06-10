@@ -1,0 +1,1 @@
+var app = angular.module("AccreApp", ["ngAnimate", "ngRoute",  "ngSanitize", "ui.bootstrap"]);
