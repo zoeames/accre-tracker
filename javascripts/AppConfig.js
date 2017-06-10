@@ -26,6 +26,11 @@ app.config(function($routeProvider) {
 			templateUrl: 'partials/auth.html',
 			controller: 'AuthCtrl'
 		})
+		.when('/list', {
+			templateUrl: 'partials/list.html',
+			controller: 'ListCtrl',
+			resolve : {isAuth}
+		})
 		.when('/logout', {
 			templateUrl: 'partials/auth.html',
 			controller: 'AuthCtrl',
