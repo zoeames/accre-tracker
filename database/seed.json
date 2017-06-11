@@ -1,73 +1,73 @@
 {
 	"jobs": {
 		"job0": {
-			"jobNum": 123456,
+			"jobNum": "123456",
 			"title": "puppy",
 			"status" : "complete",
-			"snapshot": 1,
+			"snapshot": "1",
 			"creationDate": "2017-06-02T05:00:00.000Z",
 			"updateDate": "2017-06-04T05:00:00.000Z",
 			"uid": "z3Ow81PykzSlZdZNxzk33wNOiQ12"
 		},
 		"job1": {
-			"jobNum": 11111,
+			"jobNum": "11111",
 			"title": "puppy",
 			"status" : "running",
-			"snapshot": 2,
+			"snapshot": "2",
 			"creationDate": "2017-06-02T05:00:00.000Z",
 			"updateDate": "2017-06-04T05:00:00.000Z",
 			"uid": "z3Ow81PykzSlZdZNxzk33wNOiQ12"
 		},
 		"job2": {
-			"jobNum": 22222,
+			"jobNum": "22222",
 			"title": "puppy",
 			"status" : "failed",
-			"snapshot": 3,
+			"snapshot": "3",
 			"creationDate": "2017-06-02T05:00:00.000Z",
 			"updateDate": "2017-06-04T05:00:00.000Z",
 			"uid": "z3Ow81PykzSlZdZNxzk33wNOiQ12"
 		},
 		"job3": {
-			"jobNum": 333333,
+			"jobNum": "333333",
 			"title": "puppy",
-			"status" : "gunnin",
-			"snapshot": 1,
+			"status" : "runnin",
+			"snapshot": "1",
 			"creationDate": "2017-06-02T05:00:00.000Z",
 			"updateDate": "2017-06-04T05:00:00.000Z",
 			"uid": "z3Ow81PykzSlZdZNxzk33wNOiQ12"
 		},
 		"job4": {
-			"jobNum": 44444,
+			"jobNum": "44444",
 			"title": "puppy",
 			"status" : "complete",
-			"snapshot": 2,
+			"snapshot": "2",
 			"creationDate": "2017-06-02T05:00:00.000Z",
 			"updateDate": "2017-06-04T05:00:00.000Z",
 			"uid": "z3Ow81PykzSlZdZNxzk33wNOiQ12"
 		},
 		"job5": {
-			"jobNum": 55555,
+			"jobNum": "55555",
 			"title": "puppy",
 			"status" : "complete",
-			"snapshot": 3,
+			"snapshot": "3",
 			"creationDate": "2017-06-02T05:00:00.000Z",
 			"updateDate": "2017-06-04T05:00:00.000Z",
 			"uid": "z3Ow81PykzSlZdZNxzk33wNOiQ12"
 		},
 		"job6": {
-			"jobNum": 66666,
+			"jobNum": "66666",
 			"title": "puppy",
 			"status" : "failed",
-			"snapshot": 1,
+			"snapshot": "1",
 			"creationDate": "2017-06-02T05:00:00.000Z",
 			"updateDate": "2017-06-04T05:00:00.000Z",
 			"uid": "z3Ow81PykzSlZdZNxzk33wNOiQ12"
 		},
 		"job7": {
-			"jobNum": 77777,
+			"jobNum": "77777",
 			"title": "puppy",
 			"status" : "complete",
-			"snapshot": 2,
+			"snapshot": "2",
 			"creationDate": "2017-06-02T05:00:00.000Z",
 			"updateDate": "2017-06-04T05:00:00.000Z",
 			"uid": "z3Ow81PykzSlZdZNxzk33wNOiQ12"
