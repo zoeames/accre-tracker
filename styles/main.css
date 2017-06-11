@@ -1,0 +1,13 @@
+.complete {
+  color: green; }
+
+.running {
+  color: yellow; }
+
+.failed {
+  color: red; }
+
+.panel-primary .panel-heading {
+  height: 70px;
+  display: flex;
+  align-items: center; }
