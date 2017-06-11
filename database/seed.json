@@ -30,7 +30,7 @@
 		"job3": {
 			"jobNum": "333333",
 			"title": "puppy",
-			"status" : "runnin",
+			"status" : "running",
 			"snapshot": "1",
 			"submissionDate": "2017-06-02T05:00:00.000Z",
 			"updateDate": "2017-06-04T05:00:00.000Z",
