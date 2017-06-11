@@ -1,8 +1,16 @@
-<input type="text" name="" placeholder="Search for ......." ng-model="searchText">
-<h3>Job List</h3>
+  <form class="row" role="search">
+    <div class="input-group add-on col-xs-6 col-xs-offset-3">
+      <input class="form-control" placeholder="Search for ......." ng-model="searchText" type="text">
+      <div class="input-group-btn">
+        <button class="btn btn-default"><i class="fa fa-search"></i></button>
+      </div>
+    </div>
+  </form>
+
+<h3 class="text-center">Job List</h3>
 
 <div class="panel panel-default">
-    <div class="panel-body">
+    <div class="panel-body text-center">
       <div class="col-xs-1">Job Number</div>
       <div class="col-xs-6">Title</div>
       <div class="col-xs-1">Snapshot</div>
@@ -12,11 +20,11 @@
   </div>
 <div ng-repeat="job in jobs | orderBy: 'updateDate' | filter: {jobNum: searchText}">
   <div class="panel panel-default">
-    <div class="panel-body">
+    <div class="panel-body text-center">
       <div class="col-xs-1">{{job.jobNum}}</div>
       <div class="col-xs-6">{{job.title}}</div>
       <div class="col-xs-1">{{job.snapshot}}</div>
-      <div class="col-xs-1">{{job.creationDate | date: 'shortDate'}}</div>
+      <div class="col-xs-1">{{job.submissionDate | date: 'shortDate'}}</div>
       <div class="col-xs-1 " ng-class="job.status">
       	<span ng-if="job.status === 'complete'" class="fa fa-check-circle fa-3x"></span>
       	<span ng-if="job.status === 'running'" class="fa fa-refresh fa-spin fa-3x fa-fw"></span>
