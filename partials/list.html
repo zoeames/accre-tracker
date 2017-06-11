@@ -1,1 +1,29 @@
-<h1>LIST</h1>
+<input type="text" name="" placeholder="Search for ......." ng-model="searchText">
+<h3>Job List</h3>
+
+<div class="panel panel-default">
+    <div class="panel-body">
+      <div class="col-xs-1">Job Number</div>
+      <div class="col-xs-6">Title</div>
+      <div class="col-xs-1">Snapshot</div>
+      <div class="col-xs-1">Submission Date</div>
+      <div class="col-xs-1">Status</div>
+    </div>
+  </div>
+<div ng-repeat="job in jobs | orderBy: 'updateDate' | filter: {jobNum: searchText}">
+  <div class="panel panel-default">
+    <div class="panel-body">
+      <div class="col-xs-1">{{job.jobNum}}</div>
+      <div class="col-xs-6">{{job.title}}</div>
+      <div class="col-xs-1">{{job.snapshot}}</div>
+      <div class="col-xs-1">{{job.creationDate | date: 'shortDate'}}</div>
+      <div class="col-xs-1 " ng-class="job.status">
+      	<span ng-if="job.status === 'complete'" class="fa fa-check-circle fa-3x"></span>
+      	<span ng-if="job.status === 'running'" class="fa fa-refresh fa-spin fa-3x fa-fw"></span>
+      	<span ng-if="job.status === 'failed'" class="fa fa-times-circle fa-3x"></span>
+      </div>
+      <button class="col-xs-1 btn btn-info fa fa-pencil" ng-click="editItem(item.id)"></button>
+      <button class="col-xs-1 btn btn-danger fa fa-trash-o" ng-click="deleteItem(item.id)"></button>
+    </div>
+  </div>
+</div>

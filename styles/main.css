@@ -1,0 +1,8 @@
+.complete {
+  color: green; }
+
+.running {
+  color: yellow; }
+
+.failed {
+  color: red; }
